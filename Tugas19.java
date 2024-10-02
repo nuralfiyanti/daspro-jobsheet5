@@ -55,8 +55,8 @@ public class Tugas19 {
     
         System.out.println("Mahasiswa dengan nama " + nama + " (NIM) " + nim + " kelas " + kelas + " nomor absen " + absen);
         System.out.println("Nilai Akhir: " + nilaiAkhir);
-        System.out.println(" Nilai Akhir huruf: " + nilaiAkhirHuruf);
-        System.out.println(" Kualifikasi: " + kualifikasi);
+        System.out.println("Nilai Akhir huruf: " + nilaiAkhirHuruf);
+        System.out.println("Kualifikasi: " + kualifikasi);
 
     }
 }

@@ -6,27 +6,28 @@ public class PemilihanHariDenganIf19 {
         
         Scanner sc = new Scanner(System.in);
 
-        String dayAngka, dayType;
+        int hari;
+        String dayType;
 
-        System.out.print("Input day angka: ");
-        dayAngka = sc.nextLine();
+        System.out.print("Input hari: ");
+        hari = sc.nextInt();
 
-            switch (dayAngka.toLowerCase()) {
-                case "1":
-                case "2":
-                case "3":
-                case "4":
-                case "5":
+            switch (hari) {
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
                     dayType = "weekday";
                     break;
-                case "6":
-                case "7":
+                case 6:
+                case 7:
                     dayType = "weekend";
                     break;
                 default:
-                    dayType = "invalid day angka";
+                    dayType = "invalid Number";
             }
 
-            System.out.println(dayAngka + " is a " + dayType);
+            System.out.println(hari + " is a " + dayType);
     }
 }
